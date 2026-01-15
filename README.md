@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="preview.png" width="700">
+  <img src="preview.png" width="1000">
 </p>
 
 Escape Road is a browser-based arcade driving game built using **Unity WebGL**.  
