@@ -1,5 +1,5 @@
 function unityFramework(Module) {
-  var Module = typeof Module !== "undefined" ? Module : {};
+  var Module = typeof Module !== "undefined" ? Module : {}; 
   Module["USER_JSPRE_PLACEHOLDER"] = "USER_JSPRE_PLACEHOLDER";
   function Pointer_stringify(s, len) {
     warnOnce(
