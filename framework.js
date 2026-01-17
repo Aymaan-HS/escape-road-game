@@ -12,7 +12,7 @@ function unityFramework(Module) {
     "(^|\\n)(\\s+at\\s+|)jsStackTrace(\\s+\\(|@)([^\\n]+):\\d+:\\d+(\\)|)(\\n|$)";
   var stackTraceReferenceMatch = jsStackTrace().match(
     new RegExp(stackTraceReference)
-  );
+  ); 
   if (stackTraceReferenceMatch)
     Module.stackTraceRegExp = new RegExp(
       stackTraceReference
