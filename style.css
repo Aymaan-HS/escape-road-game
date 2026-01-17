@@ -11,7 +11,7 @@ body {
   height: 100%; 
   overflow-y: hidden;
 }
-canvas {
+canvas { 
   display: block;
 }
 body {
