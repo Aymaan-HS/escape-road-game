@@ -6,7 +6,7 @@ function unityFramework(Module) {
       "The JavaScript function 'Pointer_stringify(ptrToSomeCString)' is obsoleted and will be removed in a future Unity version. Please call 'UTF8ToString(ptrToSomeCString)' instead."
     );
     return UTF8ToString(s, len);
-  }    
+  }     
   Module["Pointer_stringify"] = Pointer_stringify;
   var stackTraceReference =
     "(^|\\n)(\\s+at\\s+|)jsStackTrace(\\s+\\(|@)([^\\n]+):\\d+:\\d+(\\)|)(\\n|$)";
