@@ -51,7 +51,7 @@ function unityFramework(Module) {
       };
       Module.ccall("SetFullscreen", null, ["number"], [fullscreen]);
       JSEvents.canPerformEventHandlerRequests = tmp;
-    }
+    }     
   };
   if (
     typeof ENVIRONMENT_IS_PTHREAD === "undefined" ||
