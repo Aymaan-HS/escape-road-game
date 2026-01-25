@@ -1,7 +1,7 @@
 function unityFramework(Module) {
   var Module = typeof Module !== "undefined" ? Module : {}; 
   Module["USER_JSPRE_PLACEHOLDER"] = "USER_JSPRE_PLACEHOLDER";
-  function Pointer_stringify(s, len) {
+  function Pointer_stringify(s, len) {  
     warnOnce(
       "The JavaScript function 'Pointer_stringify(ptrToSomeCString)' is obsoleted and will be removed in a future Unity version. Please call 'UTF8ToString(ptrToSomeCString)' instead."
     ); 
