@@ -12,7 +12,7 @@ function createUnityInstance(t, n, l) {
       default:
         console.log(e);
     }
-  }
+  }   
   function r(e) {
     var t = e.reason || e.error,
       n = t ? t.toString() : e.message || e.reason || "",
