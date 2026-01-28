@@ -4,7 +4,7 @@ function unityFramework(Module) {
   function Pointer_stringify(s, len) {  
     warnOnce(
       "The JavaScript function 'Pointer_stringify(ptrToSomeCString)' is obsoleted and will be removed in a future Unity version. Please call 'UTF8ToString(ptrToSomeCString)' instead."
-    ); 
+    );  
     return UTF8ToString(s, len);
   }     
   Module["Pointer_stringify"] = Pointer_stringify;
