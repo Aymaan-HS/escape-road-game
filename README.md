@@ -5,7 +5,7 @@
 Escape Road is a browser-based arcade driving game built using **Unity WebGL**.  
 This repository contains the **complete WebGL build output** with custom HTML, CSS, and JavaScript integration for loading screen, fullscreen handling, and branding.
  
-
+ 
 ---
             
 ## 🎮 About the Game
